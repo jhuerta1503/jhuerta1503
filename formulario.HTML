@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<img src="C:\Users\CALL_CENTER10\Desktop\images (2).png" alt="Descripción de la imagen">
+    <title>Formulario de Solicitud</title>
+<style>
+        /* Aplica el fondo verde turquesa al cuerpo de la página */
+        body {
+            background-color: #00CED1; /* Código de color para verde turquesa */
+        }
+    </style>
+<head>
+    <title>Formulario de Solicitud</title>
+</head>
+<body>
+    <h2>Formulario de Solicitud de Viaje</h2>
+     <form action="mailto:boletaje1@lomas-travel.com" method="post" enctype="text/plain">
+        <label for="nombre_colaborador">Nombre del Colaborador:</label><br>
+        <input type="text" id="nombre_colaborador" name="nombre_colaborador" required><br><br>
+
+        
+
+         <label for="numero_empleado">Número de Empleado:</label>
+        <input type="text" id="numero_empleado" name="numero_empleado" required><br><br>
+
+        <label for="nombre_jefe_directo">Nombre de Jefe Directo:</label>
+        <input type="text" id="nombre_jefe_directo" name="nombre_jefe_directo" required><br><br>
+
+        <label for="correo electronico">Correo electronico del Empleado:</label>
+        <input type="text" id="correoelectronico" name="correoelectronico" required><br><br>
+
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento" name="departamento" required><br><br>
+
+        <label for="solicitud">Solicitud:</label><br>
+        <textarea id="solicitud" name="solicitud" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="fecha_requerida">Fecha Requerida:</label>
+        <input type="date" id="fecha_requerida" name="fecha_requerida" required><br><br>
+
+        <label for="pasajeros">Nombre de Pasajeros y Parentesco:</label><br>
+        <textarea id="pasajeros" name="pasajeros" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="notas">Notas:</label><br>
+        <textarea id="notas" name="notas" rows="4" cols="50"></textarea><br><br>
+
+
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+</body>
+</html>
